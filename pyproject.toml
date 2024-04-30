@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "planningcenter-import"
+version = "0.1.0"
+description = "Call PlanningCenter API and transform to other tools formats"
+authors = ["Tim Stephenson <tim@knowprocess.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openlp = "^3.1.1"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.2.0"
+coverage = "^7.5.0"
+
+
+[tool.poetry.scripts]
+pci = "pci.__main__:main"
+tests = "scripts:tests"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
