@@ -67,7 +67,10 @@ def test_get_plans(planningcenter: PlanningCenterClient):
 
         plan_items = planningcenter.get_plan_items(service_type[0]["id"], plan[0]["id"])
         sort_date = plan[0]['attributes']['sort_date']
-        with open(f"{sort_date[0:sort_date.rfind('T')]}.json", 'w') as outfile:
+
+        with open(f"plan-{sort_date[0:sort_date.rfind('T')]}.json", 'w') as outfile:
+            dump(plan, outfile, indent=2)
+        with open(f"plan-{sort_date[0:sort_date.rfind('T')]}-items.json", 'w') as outfile:
             dump(plan_items, outfile, indent=2)
 
 @pytest.mark.skipif("PC_SONG_ID" not in os.environ, reason="PC_SONG_ID not in environment")
@@ -84,3 +87,13 @@ def test_get_song(planningcenter: PlanningCenterClient):
     print(song_attachments)
     with open(f"{song['attributes']['title']}-attachments.json", 'w') as outfile:
         dump(song_attachments, outfile, indent=2)
+
+@pytest.mark.skipif("PC_SERVICE_TYPE_NAME" not in os.environ or "PC_PLAN_DATE" not in os.environ,
+                    reason="PC_SERVICE_TYPE_NAME and/or PC_PLAN_DATE notin environment")
+def test_get_plan_by_service_type_name_and_date(planningcenter: PlanningCenterClient):
+    """ test can get plan """
+    plan = planningcenter.get_plan_by_service_type_name_and_date(
+            os.environ["PC_SERVICE_TYPE_NAME"], os.environ["PC_PLAN_DATE"])
+    sort_date = plan['attributes']['sort_date']
+    with open(f"plan-{sort_date[0:sort_date.rfind('T')]}-inc-songs.json", 'w') as outfile:
+        dump(plan, outfile, indent=2)
