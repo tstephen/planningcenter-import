@@ -1,0 +1,37 @@
+{
+  "project": {
+    "name": "{{plan.attributes.sort_date}}",
+    "created": 1714500986107,
+    "parent": "/",
+    "shows": [
+      {% for plan_item in plan.plan_items %} {
+        "id": "{{plan_item.id}}",
+        "type": "{{plan_item.attributes.item_type}}",
+        "name": "{{plan_item.attributes.title}}",
+        "notes": "{{plan_item.relationships.song.data.id}}"
+      }{%- if not loop.last %},{%- endif -%}
+      {% endfor %}
+    ]
+  },
+  "shows": {
+    {% for plan_item in plan.plan_items %}
+      "{{plan_item.id}}": {
+        "name": "{{plan_item.attributes.title}}",
+        "meta": {
+          "title": "{{plan_item.attributes.title}}",
+          {% for song in plan.songs if song.id == plan_item.relationships.song.data.id %}
+            "author": "{{song.attributes.author}}",
+          {% endfor %}
+          {% for song in plan.songs if song.id == plan_item.relationships.song.data.id %}
+            "CCLI": "{{song.attributes.ccli_number}}",
+          {% endfor %}
+          {% for song in plan.songs if song.id == plan_item.relationships.song.data.id %}
+            "copyright": "{{song.attributes.copyright}}",
+          {% endfor %}
+          "artist": ""
+        }
+      }{%- if not loop.last %},{%- endif -%}
+    {% endfor %}
+
+  }
+}
