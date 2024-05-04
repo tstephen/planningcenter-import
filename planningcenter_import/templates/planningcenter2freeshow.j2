@@ -1,37 +1,158 @@
 {
   "project": {
-    "name": "{{plan.attributes.sort_date}}",
+    "name": "{{plan_name}}",
     "created": 1714500986107,
     "parent": "/",
     "shows": [
       {% for plan_item in plan.plan_items %} {
-        "id": "{{plan_item.id}}",
-        "type": "{{plan_item.attributes.item_type}}",
-        "name": "{{plan_item.attributes.title}}",
-        "notes": "{{plan_item.relationships.song.data.id}}"
+        "id": "{{plan_item.id}}"
+        {% if plan_item.attributes.item_type == "song" %}
+          ,
+          "name": "{{plan_item.attributes.title}}",
+          "notes": "song id: {{plan_item.relationships.song.data.id}}"
+        {% endif %}
       }{%- if not loop.last %},{%- endif -%}
       {% endfor %}
     ]
   },
   "shows": {
     {% for plan_item in plan.plan_items %}
+      {% set song_id = plan_item.relationships.song.data.id %}
       "{{plan_item.id}}": {
         "name": "{{plan_item.attributes.title}}",
+        "private": false,
+        {% if plan_item.attributes.item_type == "song" %}
+          "category": "{{plan_item.attributes.item_type}}",
+        {% else %}
+          "category": null,
+        {% endif %}
+        "settings": {
+          "activeLayout": "{{plan_item.id}}layout",
+          "template": "default"
+        },
+        "timestamps": {
+          "created": 1714836671798,
+          "modified": 1714836686350,
+          "used": null
+        },
         "meta": {
           "title": "{{plan_item.attributes.title}}",
-          {% for song in plan.songs if song.id == plan_item.relationships.song.data.id %}
-            "author": "{{song.attributes.author}}",
-          {% endfor %}
-          {% for song in plan.songs if song.id == plan_item.relationships.song.data.id %}
-            "CCLI": "{{song.attributes.ccli_number}}",
-          {% endfor %}
-          {% for song in plan.songs if song.id == plan_item.relationships.song.data.id %}
-            "copyright": "{{song.attributes.copyright}}",
-          {% endfor %}
+          {%- for song in plan.songs if song.id == song_id -%}
+            {%- if loop.first -%}
+              {#- in case song is duplicated. TODO is this user error or multiple arrangements? #}
+              "author": "{{song.attributes.author | trim}}",
+            {%- endif -%}
+          {%- endfor -%}
+          {% for song in plan.songs if song.id == song_id %}
+            {%- if loop.first -%}
+              {#- in case song is duplicated. TODO is this user error or multiple arrangements? #}
+              "CCLI": "{{song.attributes.ccli_number | trim}}",
+            {%- endif -%}
+          {%- endfor -%}
+          {%- for song in plan.songs if song.id == song_id %}
+            {%- if loop.first -%}
+              {#- in case song is duplicated. TODO is this user error or multiple arrangements? #}
+              "copyright": "{{song.attributes.copyright | trim}}",
+            {%- endif -%}
+          {%- endfor %}
           "artist": ""
-        }
+        },
+        "slides": {
+          {% if plan_item.attributes.item_type == "song" %}
+            {% for arr in plan.arrangements if song_id == arr.relationships.song.data.id -%}
+              {%- if loop.first -%}
+                {#- in case song is duplicated. TODO is this user error or multiple arrangements? #}
+                  {%- set verses = arr.attributes.lyrics.split("\n\n") -%}
+                  {# Exclude 'Verse x', 'Chorus x', 'Misc x' etc. #}
+                  {%- for verse in verses if verse.find('\n') != -1 and not verse.startswith("Verse") %}
+                    "{{plan_item.id}}a{{loop.index}}": {
+                      "group": "Verse",
+                      "color": "#5825f5",
+                      "settings": {},
+                      "notes": "song id: {{song_id}}",
+                      "items": [
+                        {
+                          "arr_id": "{{ arr.id }}",
+                          "style": "top:120px;left:50px;height:840px;width:1820px;",
+                          {%- set lines = verse.split("\n") %}
+                          "lines": [
+                            {%- for line in lines %}
+                              {
+                                "align": "",
+                                "text": [
+                                  {
+                                    "style": "font-size: 100px;",
+                                    "value": "{{line}}"
+                                  }
+                                ]
+                              }{%- if not loop.last %},{%- endif %}
+                            {% endfor %}
+                          ],
+                          "align": "",
+                          "auto": false
+                        }
+                      ],
+                      "globalGroup": "verse"
+                    }{%- if not loop.last %},{%- endif -%}
+                  {% endfor %}
+              {%- endif -%}
+            {%- endfor %}
+          {% else %}
+            "{{plan_item.id}}presentation": {
+            "group": "Verse",
+            "color": "#5825f5",
+            "settings": {},
+            "notes": "",
+            "items": [
+              {
+                "style": "top:120px;left:50px;height:840px;width:1820px;",
+                "type": "text",
+                "lines": [
+                {
+                  "align": "",
+                  "text": [
+                    {
+                      "style": "font-size: 100px;",
+                      "value": "{{plan_item.attributes.title}}"
+                    }
+                  ]
+                }
+                ],
+                "align": "",
+                "auto": false
+              }
+            ],
+            "globalGroup": "verse"
+          }
+          {% endif %}
+        },
+        "layouts": {
+          "{{plan_item.id}}layout": {
+            "name": "Default",
+            "notes": "",
+            "slides": [
+              {% if plan_item.attributes.item_type == "song" %}
+                {% for arr in plan.arrangements if song_id == arr.relationships.song.data.id -%}
+                  {%- if loop.first -%}
+                    {#- in case song is duplicated. TODO is this user error or multiple arrangements #}
+                      {%- set verses = arr.attributes.lyrics.split("\n\n") -%}
+                      {%- for verse in verses %}
+                        {
+                          "id": "{{plan_item.id}}a{{loop.index}}"
+                        }{%- if not loop.last %},{%- endif -%}
+                      {% endfor %}
+                  {%- endif -%}
+                {% endfor %}
+              {% else %}
+                {
+                  "id": "{{plan_item.id}}presentation"
+                }
+              {% endif %}
+            ]
+          }
+        },
+        "media": {}
       }{%- if not loop.last %},{%- endif -%}
     {% endfor %}
-
   }
 }
