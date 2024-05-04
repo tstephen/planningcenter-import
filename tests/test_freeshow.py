@@ -35,4 +35,5 @@ def test_freeshow_import_plan(freeshow: FreeShow):
         plan = json.load(file)
         # plan = plan if type(plan) == "dict" else plan[0]
 
-    freeshow.transform_plan_to_project(plan)
+    file_name = freeshow.transform_plan_to_project(plan)
+    print(f"produced file: {file_name}")

@@ -26,11 +26,22 @@ class FreeShow:
         with open('planningcenter_import/templates/planningcenter2freeshow.j2', 'r') as template_file:
             template_str = template_file.read()
 
+        plan_name = plan["attributes"]["sort_date"][:16].replace('T', ' ')
         template = Template(template_str)
-        transformed_data = json.loads(template.render(plan=plan))
+        try:
+            transformed_data = json.loads(template.render(plan_name=plan_name, plan=plan))
+            ret_val = f"{plan_name.replace(' ','-')}.project"
+            with open(ret_val, 'w') as file:
+                json.dump(transformed_data, file, indent=2)
+            return ret_val
+        except json.decoder.JSONDecodeError as err:
+            logger.error("produced invalid json, %s", err.msg)
+            transformed_data = template.render(plan_name=plan_name, plan=plan)
+            ret_val = f"{plan_name.replace(' ','-')}.debug"
+            with open(ret_val, 'w') as file:
+                file.write(transformed_data)
+            return ret_val
 
-        with open(f"foo.project", 'w') as file:
-            json.dump(transformed_data, file, indent=2)
 
 
     # def get_plan_from_planning_center(self):
