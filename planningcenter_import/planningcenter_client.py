@@ -108,7 +108,7 @@ class PlanningCenterClient:
                     # https://api.planningcenteronline.com/services/v2/service_types/1471067/plans/71718124/items/975968735/arrangement" vs
                     # https://api.planningcenteronline.com/services/v2/songs/26129559/arrangements
                     songs.append(self.get_song(song_id))
-                    song_arrangements.append(self.get_song_arrangements(song_id))
+                    song_arrangements.append(self.get_song_arrangements(song_id)[0])
                 except TypeError as e:
                     logger.warning("missing song arrangement?", exc_info=e)
         plans[0]["plan_items"] = plan_items

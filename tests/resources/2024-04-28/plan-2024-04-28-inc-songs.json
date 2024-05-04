@@ -946,8 +946,8 @@
         "copyright": "2002 Thankyou Music",
         "created_at": "2024-04-20T11:28:19Z",
         "hidden": false,
-        "last_scheduled_at": "2024-04-28T10:00:00Z",
-        "last_scheduled_short_dates": "28 Apr 2024",
+        "last_scheduled_at": "2024-05-05T10:00:00Z",
+        "last_scheduled_short_dates": "5 May 2024",
         "notes": null,
         "themes": "Chord Charts, Holy, Holy Ghost, immortality, Job, made, Ministry Time, mothers day, mp3, palm sunday, solitude, spirit, Suffering, undo, witnessing, , Blessing, Forgiveness, Praise",
         "title": "Blessed Be Your Name",
@@ -1127,878 +1127,862 @@
     }
   ],
   "arrangements": [
-    [
-      {
-        "type": "Arrangement",
-        "id": "30357450",
-        "attributes": {
-          "archived_at": null,
-          "bpm": null,
-          "chord_chart": "Verse 1\n\nThere is a day coming\nWhen the old will pass away\nEvery wrong will be made right\nNo darkness no night\nThe Son will light the way\n\nVerse 2\n\nThere is a king coming\nThe one who conquered death and grave\nNo more pain and no more sorrow\nThis hope for tomorrow\nIs our hope for today\n\nMisc 1\n\nHe who was He who is\nHe who was He who is\n\nChorus 1\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n\nVerse 3\n\nThere's only One worthy\nOf all glory and all praise\nAll wealth and all honor\nSpeak wisdom and power to the Lamb that was slain oh\n\nMisc 2\n\nHallelujah hallelujah\n\nVerse 4\n\nHe is surely coming\nOh can you feel it too\nAll this tension growing stronger\nIt's just a sign He's getting closer\nHe's already on the move\n\nVerse 5\n\nYeah the story has been written\nWe all know how it ends\nMy future has an anchor\nMy eyes are on the Savior\nHe's coming back again\n\nChorus 2\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n(REPEAT)\n\nHallelujah hallelujah\nHallelujah hallelujah\n\nMisc 3\n\nLord we wait oh we pray\nWe're waiting on You\nWith our eyes on the horizon\nWe are hungry we are thirsty\nWould You come\nWe pray we pray\n\nMisc 4\n\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come (we wait we pray)\n(REPEAT)",
-          "chord_chart_chord_color": 0,
-          "chord_chart_columns": 1,
-          "chord_chart_font": "Courier",
-          "chord_chart_font_size": 12,
-          "chord_chart_key": "G",
-          "created_at": "2024-04-19T07:50:06Z",
-          "has_chord_chart": true,
-          "has_chords": false,
-          "length": 0,
-          "lyrics": "Verse 1\n\nThere is a day coming\nWhen the old will pass away\nEvery wrong will be made right\nNo darkness no night\nThe Son will light the way\n\nVerse 2\n\nThere is a king coming\nThe one who conquered death and grave\nNo more pain and no more sorrow\nThis hope for tomorrow\nIs our hope for today\n\nMisc 1\n\nHe who was He who is\nHe who was He who is\n\nChorus 1\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n\nVerse 3\n\nThere's only One worthy\nOf all glory and all praise\nAll wealth and all honor\nSpeak wisdom and power to the Lamb that was slain oh\n\nMisc 2\n\nHallelujah hallelujah\n\nVerse 4\n\nHe is surely coming\nOh can you feel it too\nAll this tension growing stronger\nIt's just a sign He's getting closer\nHe's already on the move\n\nVerse 5\n\nYeah the story has been written\nWe all know how it ends\nMy future has an anchor\nMy eyes are on the Savior\nHe's coming back again\n\nChorus 2\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n(REPEAT)\n\nHallelujah hallelujah\nHallelujah hallelujah\n\nMisc 3\n\nLord we wait oh we pray\nWe're waiting on You\nWith our eyes on the horizon\nWe are hungry we are thirsty\nWould You come\nWe pray we pray\n\nMisc 4\n\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come (we wait we pray)\n(REPEAT)",
-          "lyrics_enabled": true,
-          "meter": null,
-          "name": "Default Arrangement",
-          "notes": null,
-          "number_chart_enabled": false,
-          "numeral_chart_enabled": false,
-          "print_margin": "0.5in",
-          "print_orientation": "Portrait",
-          "print_page_size": "Letter",
-          "sequence": [],
-          "sequence_full": [],
-          "sequence_short": [],
-          "updated_at": "2024-04-27T09:47:47Z"
-        },
-        "relationships": {
-          "updated_by": {
-            "data": {
-              "type": "Person",
-              "id": "145091105"
-            }
-          },
-          "created_by": {
-            "data": {
-              "type": "Person",
-              "id": "145091105"
-            }
-          },
-          "song": {
-            "data": {
-              "type": "Song",
-              "id": "26129559"
-            }
+    {
+      "type": "Arrangement",
+      "id": "30357450",
+      "attributes": {
+        "archived_at": null,
+        "bpm": null,
+        "chord_chart": "Verse 1\n\nThere is a day coming\nWhen the old will pass away\nEvery wrong will be made right\nNo darkness no night\nThe Son will light the way\n\nVerse 2\n\nThere is a king coming\nThe one who conquered death and grave\nNo more pain and no more sorrow\nThis hope for tomorrow\nIs our hope for today\n\nMisc 1\n\nHe who was He who is\nHe who was He who is\n\nChorus 1\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n\nVerse 3\n\nThere's only One worthy\nOf all glory and all praise\nAll wealth and all honor\nSpeak wisdom and power to the Lamb that was slain oh\n\nMisc 2\n\nHallelujah hallelujah\n\nVerse 4\n\nHe is surely coming\nOh can you feel it too\nAll this tension growing stronger\nIt's just a sign He's getting closer\nHe's already on the move\n\nVerse 5\n\nYeah the story has been written\nWe all know how it ends\nMy future has an anchor\nMy eyes are on the Savior\nHe's coming back again\n\nChorus 2\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n(REPEAT)\n\nHallelujah hallelujah\nHallelujah hallelujah\n\nMisc 3\n\nLord we wait oh we pray\nWe're waiting on You\nWith our eyes on the horizon\nWe are hungry we are thirsty\nWould You come\nWe pray we pray\n\nMisc 4\n\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come (we wait we pray)\n(REPEAT)",
+        "chord_chart_chord_color": 0,
+        "chord_chart_columns": 1,
+        "chord_chart_font": "Courier",
+        "chord_chart_font_size": 12,
+        "chord_chart_key": "G",
+        "created_at": "2024-04-19T07:50:06Z",
+        "has_chord_chart": true,
+        "has_chords": false,
+        "length": 0,
+        "lyrics": "Verse 1\n\nThere is a day coming\nWhen the old will pass away\nEvery wrong will be made right\nNo darkness no night\nThe Son will light the way\n\nVerse 2\n\nThere is a king coming\nThe one who conquered death and grave\nNo more pain and no more sorrow\nThis hope for tomorrow\nIs our hope for today\n\nMisc 1\n\nHe who was He who is\nHe who was He who is\n\nChorus 1\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n\nVerse 3\n\nThere's only One worthy\nOf all glory and all praise\nAll wealth and all honor\nSpeak wisdom and power to the Lamb that was slain oh\n\nMisc 2\n\nHallelujah hallelujah\n\nVerse 4\n\nHe is surely coming\nOh can you feel it too\nAll this tension growing stronger\nIt's just a sign He's getting closer\nHe's already on the move\n\nVerse 5\n\nYeah the story has been written\nWe all know how it ends\nMy future has an anchor\nMy eyes are on the Savior\nHe's coming back again\n\nChorus 2\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n(REPEAT)\n\nHallelujah hallelujah\nHallelujah hallelujah\n\nMisc 3\n\nLord we wait oh we pray\nWe're waiting on You\nWith our eyes on the horizon\nWe are hungry we are thirsty\nWould You come\nWe pray we pray\n\nMisc 4\n\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come (we wait we pray)\n(REPEAT)",
+        "lyrics_enabled": true,
+        "meter": null,
+        "name": "Default Arrangement",
+        "notes": null,
+        "number_chart_enabled": false,
+        "numeral_chart_enabled": false,
+        "print_margin": "0.5in",
+        "print_orientation": "Portrait",
+        "print_page_size": "Letter",
+        "sequence": [],
+        "sequence_full": [],
+        "sequence_short": [],
+        "updated_at": "2024-04-27T09:47:47Z"
+      },
+      "relationships": {
+        "updated_by": {
+          "data": {
+            "type": "Person",
+            "id": "145091105"
           }
         },
-        "links": {
-          "self": "https://api.planningcenteronline.com/services/v2/songs/26129559/arrangements/30357450"
-        }
-      }
-    ],
-    [
-      {
-        "type": "Arrangement",
-        "id": "30361779",
-        "attributes": {
-          "archived_at": null,
-          "bpm": 114,
-          "chord_chart": "Verse 1\n\nBlessed be Your name\nIn the land that is plentiful\nWhere Your streams of abundance flow\nBlessed be Your name\n\nVerse 2\n\nBlessed be Your name\nWhen I'm found in the desert place\nThough I walk through the wilderness\nBlessed be Your name\n\nMisc 1\n\nEv\u2019ry blessing You pour out I\u2019ll\nTurn back to praise\nWhen the darkness closes in Lord\nStill I will say\n\nChorus 1\n\nBlessed be the name of the Lord\nBlessed be Your name\nBlessed be the name of the Lord\nBlessed be Your glorious name\n\nVerse 3\n\nBlessed be Your name\nWhen the sun's shining down on me\nWhen the world's all as it should be\nBlessed be Your name\n\nVerse 4\n\nBlessed be Your name\nOn the road marked with suffering\nThough there's pain in the offering\nBlessed be Your name\n\nMisc 2\n\nYou give and take away\nYou give and take away\nMy heart will choose to say\nLord blessed be Your name",
-          "chord_chart_chord_color": 0,
-          "chord_chart_columns": 1,
-          "chord_chart_font": "Courier",
-          "chord_chart_font_size": 12,
-          "chord_chart_key": "G",
-          "created_at": "2024-04-20T11:28:19Z",
-          "has_chord_chart": true,
-          "has_chords": false,
-          "length": 263,
-          "lyrics": "Verse 1\n\nBlessed be Your name\nIn the land that is plentiful\nWhere Your streams of abundance flow\nBlessed be Your name\n\nVerse 2\n\nBlessed be Your name\nWhen I'm found in the desert place\nThough I walk through the wilderness\nBlessed be Your name\n\nMisc 1\n\nEv\u2019ry blessing You pour out I\u2019ll\nTurn back to praise\nWhen the darkness closes in Lord\nStill I will say\n\nChorus 1\n\nBlessed be the name of the Lord\nBlessed be Your name\nBlessed be the name of the Lord\nBlessed be Your glorious name\n\nVerse 3\n\nBlessed be Your name\nWhen the sun's shining down on me\nWhen the world's all as it should be\nBlessed be Your name\n\nVerse 4\n\nBlessed be Your name\nOn the road marked with suffering\nThough there's pain in the offering\nBlessed be Your name\n\nMisc 2\n\nYou give and take away\nYou give and take away\nMy heart will choose to say\nLord blessed be Your name",
-          "lyrics_enabled": true,
-          "meter": "4/4",
-          "name": "The Worship Initiative",
-          "notes": null,
-          "number_chart_enabled": false,
-          "numeral_chart_enabled": false,
-          "print_margin": "0.5in",
-          "print_orientation": "Portrait",
-          "print_page_size": "Letter",
-          "sequence": [
-            "Intro",
-            "Intro",
-            "Verse 1",
-            "Verse 2",
-            "Pre Chorus",
-            "Chorus",
-            "Verse 3",
-            "Verse 4",
-            "Pre Chorus",
-            "Chorus",
-            "Bridge",
-            "Bridge",
-            "Chorus",
-            "Chorus",
-            "Breakdown",
-            "Outro",
-            "Ending"
-          ],
-          "sequence_full": [
-            {
-              "label": "Intro",
-              "number": "1",
-              "t": "00:04:210",
-              "sid": 83182
-            },
-            {
-              "label": "Intro",
-              "number": "1",
-              "t": "00:12:631",
-              "sid": 83183
-            },
-            {
-              "label": "Verse",
-              "number": "1",
-              "t": "00:23:157",
-              "sid": 83184
-            },
-            {
-              "label": "Verse",
-              "number": "2",
-              "t": "00:40:000",
-              "sid": 83185
-            },
-            {
-              "label": "Pre Chorus",
-              "number": "1",
-              "t": "00:56:842",
-              "sid": 83186
-            },
-            {
-              "label": "Chorus",
-              "number": "1",
-              "t": "01:13:684",
-              "sid": 83187
-            },
-            {
-              "label": "Verse",
-              "number": "3",
-              "t": "01:32:631",
-              "sid": 83188
-            },
-            {
-              "label": "Verse",
-              "number": "4",
-              "t": "01:49:473",
-              "sid": 83189
-            },
-            {
-              "label": "Pre Chorus",
-              "number": "1",
-              "t": "02:06:315",
-              "sid": 83190
-            },
-            {
-              "label": "Chorus",
-              "number": "1",
-              "t": "02:23:157",
-              "sid": 83191
-            },
-            {
-              "label": "Bridge",
-              "number": "1",
-              "t": "02:40:000",
-              "sid": 83192
-            },
-            {
-              "label": "Bridge",
-              "number": "1",
-              "t": "02:56:842",
-              "sid": 83193
-            },
-            {
-              "label": "Chorus",
-              "number": "1",
-              "t": "03:15:789",
-              "sid": 83194
-            },
-            {
-              "label": "Chorus",
-              "number": "1",
-              "t": "03:32:631",
-              "sid": 83195
-            },
-            {
-              "label": "Breakdown",
-              "number": "1",
-              "t": "03:47:368",
-              "sid": 83196
-            },
-            {
-              "label": "Outro",
-              "number": "1",
-              "t": "03:55:789",
-              "sid": 83197
-            },
-            {
-              "label": "Ending",
-              "number": "1",
-              "t": "04:10:526",
-              "sid": 83198
-            }
-          ],
-          "sequence_short": [
-            "Intro\u00d72",
-            "V1",
-            "V2",
-            "PC",
-            "C",
-            "V3",
-            "V4",
-            "PC",
-            "C",
-            "B\u00d72",
-            "C\u00d72",
-            "Breakdown",
-            "Outro",
-            "E"
-          ],
-          "updated_at": "2024-04-20T11:28:20Z"
-        },
-        "relationships": {
-          "updated_by": {
-            "data": {
-              "type": "Person",
-              "id": "144405512"
-            }
-          },
-          "created_by": {
-            "data": {
-              "type": "Person",
-              "id": "144405512"
-            }
-          },
-          "song": {
-            "data": {
-              "type": "Song",
-              "id": "26133086"
-            }
+        "created_by": {
+          "data": {
+            "type": "Person",
+            "id": "145091105"
           }
         },
-        "links": {
-          "self": "https://api.planningcenteronline.com/services/v2/songs/26133086/arrangements/30361779"
+        "song": {
+          "data": {
+            "type": "Song",
+            "id": "26129559"
+          }
         }
+      },
+      "links": {
+        "self": "https://api.planningcenteronline.com/services/v2/songs/26129559/arrangements/30357450"
       }
-    ],
-    [
-      {
-        "type": "Arrangement",
-        "id": "30196611",
-        "attributes": {
-          "archived_at": null,
-          "bpm": null,
-          "chord_chart": "Verse 1\n\nThe greatest day in history\nDeath is beaten You have rescued me\nSing it out Jesus is alive\nThe empty cross the empty grave\nLife eternal You have won the day\nShout it out Jesus is alive\nHe's alive\n\nChorus 1\n\nAnd oh happy day happy day\nYou washed my sin away\nOh happy day happy day\nI'll never be the same\nForever I am changed\n(What a glorious glorious day)\n(I'll never be the same)\n\nVerse 2\n\nWhen I stand in that place\nFree at last meeting face to face\nI am Yours Jesus You are mine\nEndless joy perfect peace\nEarthly pain finally will cease\nCelebrate Jesus is alive\nHe's alive\n\nMisc 1\n\nOh what a glorious day\nWhat a glorious way\nThat You have saved me\nAnd oh what a glorious day\nWhat a glorious name\nHey\n\nMisc 2\n\nWhat a glorious glorious day\nI'll never be the same",
-          "chord_chart_chord_color": 0,
-          "chord_chart_columns": 1,
-          "chord_chart_font": "Courier",
-          "chord_chart_font_size": 12,
-          "chord_chart_key": "Bb",
-          "created_at": "2024-03-26T18:54:49Z",
-          "has_chord_chart": true,
-          "has_chords": false,
-          "length": 0,
-          "lyrics": "Verse 1\n\nThe greatest day in history\nDeath is beaten You have rescued me\nSing it out Jesus is alive\nThe empty cross the empty grave\nLife eternal You have won the day\nShout it out Jesus is alive\nHe's alive\n\nChorus 1\n\nAnd oh happy day happy day\nYou washed my sin away\nOh happy day happy day\nI'll never be the same\nForever I am changed\n(What a glorious glorious day)\n(I'll never be the same)\n\nVerse 2\n\nWhen I stand in that place\nFree at last meeting face to face\nI am Yours Jesus You are mine\nEndless joy perfect peace\nEarthly pain finally will cease\nCelebrate Jesus is alive\nHe's alive\n\nMisc 1\n\nOh what a glorious day\nWhat a glorious way\nThat You have saved me\nAnd oh what a glorious day\nWhat a glorious name\nHey\n\nMisc 2\n\nWhat a glorious glorious day\nI'll never be the same",
-          "lyrics_enabled": true,
-          "meter": null,
-          "name": "Default Arrangement",
-          "notes": null,
-          "number_chart_enabled": false,
-          "numeral_chart_enabled": false,
-          "print_margin": "0.5in",
-          "print_orientation": "Portrait",
-          "print_page_size": "Letter",
-          "sequence": [],
-          "sequence_full": [],
-          "sequence_short": [],
-          "updated_at": "2024-04-10T21:00:53Z"
-        },
-        "relationships": {
-          "updated_by": {
-            "data": {
-              "type": "Person",
-              "id": "144451464"
-            }
+    },
+    {
+      "type": "Arrangement",
+      "id": "30361779",
+      "attributes": {
+        "archived_at": null,
+        "bpm": 114,
+        "chord_chart": "Verse 1\n\nBlessed be Your name\nIn the land that is plentiful\nWhere Your streams of abundance flow\nBlessed be Your name\n\nVerse 2\n\nBlessed be Your name\nWhen I'm found in the desert place\nThough I walk through the wilderness\nBlessed be Your name\n\nMisc 1\n\nEv\u2019ry blessing You pour out I\u2019ll\nTurn back to praise\nWhen the darkness closes in Lord\nStill I will say\n\nChorus 1\n\nBlessed be the name of the Lord\nBlessed be Your name\nBlessed be the name of the Lord\nBlessed be Your glorious name\n\nVerse 3\n\nBlessed be Your name\nWhen the sun's shining down on me\nWhen the world's all as it should be\nBlessed be Your name\n\nVerse 4\n\nBlessed be Your name\nOn the road marked with suffering\nThough there's pain in the offering\nBlessed be Your name\n\nMisc 2\n\nYou give and take away\nYou give and take away\nMy heart will choose to say\nLord blessed be Your name",
+        "chord_chart_chord_color": 0,
+        "chord_chart_columns": 1,
+        "chord_chart_font": "Courier",
+        "chord_chart_font_size": 12,
+        "chord_chart_key": "G",
+        "created_at": "2024-04-20T11:28:19Z",
+        "has_chord_chart": true,
+        "has_chords": false,
+        "length": 263,
+        "lyrics": "Verse 1\n\nBlessed be Your name\nIn the land that is plentiful\nWhere Your streams of abundance flow\nBlessed be Your name\n\nVerse 2\n\nBlessed be Your name\nWhen I'm found in the desert place\nThough I walk through the wilderness\nBlessed be Your name\n\nMisc 1\n\nEv\u2019ry blessing You pour out I\u2019ll\nTurn back to praise\nWhen the darkness closes in Lord\nStill I will say\n\nChorus 1\n\nBlessed be the name of the Lord\nBlessed be Your name\nBlessed be the name of the Lord\nBlessed be Your glorious name\n\nVerse 3\n\nBlessed be Your name\nWhen the sun's shining down on me\nWhen the world's all as it should be\nBlessed be Your name\n\nVerse 4\n\nBlessed be Your name\nOn the road marked with suffering\nThough there's pain in the offering\nBlessed be Your name\n\nMisc 2\n\nYou give and take away\nYou give and take away\nMy heart will choose to say\nLord blessed be Your name",
+        "lyrics_enabled": true,
+        "meter": "4/4",
+        "name": "The Worship Initiative",
+        "notes": null,
+        "number_chart_enabled": false,
+        "numeral_chart_enabled": false,
+        "print_margin": "0.5in",
+        "print_orientation": "Portrait",
+        "print_page_size": "Letter",
+        "sequence": [
+          "Intro",
+          "Intro",
+          "Verse 1",
+          "Verse 2",
+          "Pre Chorus",
+          "Chorus",
+          "Verse 3",
+          "Verse 4",
+          "Pre Chorus",
+          "Chorus",
+          "Bridge",
+          "Bridge",
+          "Chorus",
+          "Chorus",
+          "Breakdown",
+          "Outro",
+          "Ending"
+        ],
+        "sequence_full": [
+          {
+            "label": "Intro",
+            "number": "1",
+            "t": "00:04:210",
+            "sid": 83182
           },
-          "created_by": {
-            "data": {
-              "type": "Person",
-              "id": "144406086"
-            }
+          {
+            "label": "Intro",
+            "number": "1",
+            "t": "00:12:631",
+            "sid": 83183
           },
-          "song": {
-            "data": {
-              "type": "Song",
-              "id": "26001798"
-            }
+          {
+            "label": "Verse",
+            "number": "1",
+            "t": "00:23:157",
+            "sid": 83184
+          },
+          {
+            "label": "Verse",
+            "number": "2",
+            "t": "00:40:000",
+            "sid": 83185
+          },
+          {
+            "label": "Pre Chorus",
+            "number": "1",
+            "t": "00:56:842",
+            "sid": 83186
+          },
+          {
+            "label": "Chorus",
+            "number": "1",
+            "t": "01:13:684",
+            "sid": 83187
+          },
+          {
+            "label": "Verse",
+            "number": "3",
+            "t": "01:32:631",
+            "sid": 83188
+          },
+          {
+            "label": "Verse",
+            "number": "4",
+            "t": "01:49:473",
+            "sid": 83189
+          },
+          {
+            "label": "Pre Chorus",
+            "number": "1",
+            "t": "02:06:315",
+            "sid": 83190
+          },
+          {
+            "label": "Chorus",
+            "number": "1",
+            "t": "02:23:157",
+            "sid": 83191
+          },
+          {
+            "label": "Bridge",
+            "number": "1",
+            "t": "02:40:000",
+            "sid": 83192
+          },
+          {
+            "label": "Bridge",
+            "number": "1",
+            "t": "02:56:842",
+            "sid": 83193
+          },
+          {
+            "label": "Chorus",
+            "number": "1",
+            "t": "03:15:789",
+            "sid": 83194
+          },
+          {
+            "label": "Chorus",
+            "number": "1",
+            "t": "03:32:631",
+            "sid": 83195
+          },
+          {
+            "label": "Breakdown",
+            "number": "1",
+            "t": "03:47:368",
+            "sid": 83196
+          },
+          {
+            "label": "Outro",
+            "number": "1",
+            "t": "03:55:789",
+            "sid": 83197
+          },
+          {
+            "label": "Ending",
+            "number": "1",
+            "t": "04:10:526",
+            "sid": 83198
+          }
+        ],
+        "sequence_short": [
+          "Intro\u00d72",
+          "V1",
+          "V2",
+          "PC",
+          "C",
+          "V3",
+          "V4",
+          "PC",
+          "C",
+          "B\u00d72",
+          "C\u00d72",
+          "Breakdown",
+          "Outro",
+          "E"
+        ],
+        "updated_at": "2024-04-20T11:28:20Z"
+      },
+      "relationships": {
+        "updated_by": {
+          "data": {
+            "type": "Person",
+            "id": "144405512"
           }
         },
-        "links": {
-          "self": "https://api.planningcenteronline.com/services/v2/songs/26001798/arrangements/30196611"
-        }
-      }
-    ],
-    [
-      {
-        "type": "Arrangement",
-        "id": "30350780",
-        "attributes": {
-          "archived_at": null,
-          "bpm": 72.5,
-          "chord_chart": "Verse 1\n\nBlessed are those who run to Him\nWho place their hope and confidence in Jesus\nHe won\u2019t forsake them\nBlessed are those who seek His face\nWho bend their knee and fix their gaze on Jesus\nThey won\u2019t be shaken\n\nChorus 1\n\nCome on and praise the Lord with me\nSing if you love His name\nCome on and lift your voice with me\nHe\u2019s worthy of all our praise\n\nVerse 2\n\nBlessed are those who walk with Him\nWhose hearts are set on pilgrimage with Jesus\nThey\u2019ll see His glory\nBlessed are those who die to live\nWhose joy it is to give it all for Jesus\nAnd for Him only\nOh Jesus all for Your glory\n\nChorus 2\n\nCome on and praise the Lord with me\nSing if you love His name\nCome on and lift your voice with me\nHe\u2019s worthy of all our praise\n\nCome on and bring your offering\nSing if you\u2019ve known His grace\nCome on and lift up your holy hands\nHe\u2019s worthy of all our praise\n\nMisc 1\n\nBless God in the sanctuary\nBless God in the fields of plenty\nBless God in the darkest valley\nEvery chance I get I bless Your name\n\nBless God when my hands are empty\nBless God with a praise that costs me\nBless God when nobody\u2019s watching\nEvery chance I get I bless Your name\n\nBless God when the weapon\u2019s forming\nBless God when the walls are falling\nBless God \u2018cause He goes before me\nEvery chance I get I bless Your name\n\nBless God for He holds the vict\u2019ry\nBless God for He\u2019s always with me\nBless God for He\u2019s always worthy\nEvery chance I get I bless Your name\n\nMisc 2\n\nEvery chance I get I bless Your name\n\nMisc 3\n\nHe\u2019s worthy of all our praise\nHe\u2019s worthy of all our praise",
-          "chord_chart_chord_color": 0,
-          "chord_chart_columns": 1,
-          "chord_chart_font": "Courier",
-          "chord_chart_font_size": 12,
-          "chord_chart_key": "G",
-          "created_at": "2024-04-18T07:57:28Z",
-          "has_chord_chart": true,
-          "has_chords": false,
-          "length": 297,
-          "lyrics": "Verse 1\n\nBlessed are those who run to Him\nWho place their hope and confidence in Jesus\nHe won\u2019t forsake them\nBlessed are those who seek His face\nWho bend their knee and fix their gaze on Jesus\nThey won\u2019t be shaken\n\nChorus 1\n\nCome on and praise the Lord with me\nSing if you love His name\nCome on and lift your voice with me\nHe\u2019s worthy of all our praise\n\nVerse 2\n\nBlessed are those who walk with Him\nWhose hearts are set on pilgrimage with Jesus\nThey\u2019ll see His glory\nBlessed are those who die to live\nWhose joy it is to give it all for Jesus\nAnd for Him only\nOh Jesus all for Your glory\n\nChorus 2\n\nCome on and praise the Lord with me\nSing if you love His name\nCome on and lift your voice with me\nHe\u2019s worthy of all our praise\n\nCome on and bring your offering\nSing if you\u2019ve known His grace\nCome on and lift up your holy hands\nHe\u2019s worthy of all our praise\n\nMisc 1\n\nBless God in the sanctuary\nBless God in the fields of plenty\nBless God in the darkest valley\nEvery chance I get I bless Your name\n\nBless God when my hands are empty\nBless God with a praise that costs me\nBless God when nobody\u2019s watching\nEvery chance I get I bless Your name\n\nBless God when the weapon\u2019s forming\nBless God when the walls are falling\nBless God \u2018cause He goes before me\nEvery chance I get I bless Your name\n\nBless God for He holds the vict\u2019ry\nBless God for He\u2019s always with me\nBless God for He\u2019s always worthy\nEvery chance I get I bless Your name\n\nMisc 2\n\nEvery chance I get I bless Your name\n\nMisc 3\n\nHe\u2019s worthy of all our praise\nHe\u2019s worthy of all our praise",
-          "lyrics_enabled": true,
-          "meter": "4/4",
-          "name": "Brooke Ligertwood",
-          "notes": null,
-          "number_chart_enabled": false,
-          "numeral_chart_enabled": false,
-          "print_margin": "0.5in",
-          "print_orientation": "Portrait",
-          "print_page_size": "Letter",
-          "sequence": [
-            "Intro",
-            "Verse 1",
-            "Chorus 1",
-            "Vamp",
-            "Verse 2",
-            "Tag",
-            "Chorus 1",
-            "Chorus 2",
-            "Bridge 1",
-            "Bridge 2",
-            "Bridge 3",
-            "Bridge 4",
-            "Chorus 1",
-            "Chorus 2",
-            "Tag",
-            "Ending"
-          ],
-          "sequence_full": [
-            {
-              "label": "Intro",
-              "number": 1,
-              "t": "00:06:620",
-              "sid": 671241,
-              "id": 1
-            },
-            {
-              "label": "Verse",
-              "number": 1,
-              "t": "00:19:862",
-              "sid": 671242,
-              "id": 2
-            },
-            {
-              "label": "Chorus",
-              "number": 1,
-              "t": "00:46:344",
-              "sid": 671243,
-              "id": 3
-            },
-            {
-              "label": "Vamp",
-              "number": 1,
-              "t": "01:12:827",
-              "sid": 671244,
-              "id": 4
-            },
-            {
-              "label": "Verse",
-              "number": 2,
-              "t": "01:16:137",
-              "sid": 671245,
-              "id": 5
-            },
-            {
-              "label": "Tag",
-              "number": 1,
-              "t": "01:42:620",
-              "sid": 671246,
-              "id": 6
-            },
-            {
-              "label": "Chorus",
-              "number": 1,
-              "t": "01:49:241",
-              "sid": 671247,
-              "id": 7
-            },
-            {
-              "label": "Chorus",
-              "number": 2,
-              "t": "02:15:724",
-              "sid": 671248,
-              "id": 8
-            },
-            {
-              "label": "Bridge",
-              "number": 1,
-              "t": "02:42:206",
-              "sid": 671249,
-              "id": 9
-            },
-            {
-              "label": "Bridge",
-              "number": 2,
-              "t": "02:55:448",
-              "sid": 671250,
-              "id": 10
-            },
-            {
-              "label": "Bridge",
-              "number": 3,
-              "t": "03:08:689",
-              "sid": 671251,
-              "id": 11
-            },
-            {
-              "label": "Bridge",
-              "number": 4,
-              "t": "03:21:931",
-              "sid": 671252,
-              "id": 12
-            },
-            {
-              "label": "Chorus",
-              "number": 1,
-              "t": "03:48:413",
-              "sid": 671255,
-              "id": 15
-            },
-            {
-              "label": "Chorus",
-              "number": 2,
-              "t": "04:14:896",
-              "sid": 671256,
-              "id": 16
-            },
-            {
-              "label": "Tag",
-              "number": 1,
-              "t": "04:41:379",
-              "sid": 671257,
-              "id": 17
-            },
-            {
-              "label": "Ending",
-              "number": 1,
-              "t": "04:48:000",
-              "sid": 671258,
-              "id": 18
-            }
-          ],
-          "sequence_short": [
-            "Intro",
-            "V1",
-            "C1",
-            "Vamp",
-            "V2",
-            "Tag",
-            "C1",
-            "C2",
-            "B1",
-            "B2",
-            "B3",
-            "B4",
-            "C1",
-            "C2",
-            "Tag",
-            "E"
-          ],
-          "updated_at": "2024-04-19T18:45:19Z"
-        },
-        "relationships": {
-          "updated_by": {
-            "data": {
-              "type": "Person",
-              "id": "145090912"
-            }
-          },
-          "created_by": {
-            "data": {
-              "type": "Person",
-              "id": "145091105"
-            }
-          },
-          "song": {
-            "data": {
-              "type": "Song",
-              "id": "26124163"
-            }
+        "created_by": {
+          "data": {
+            "type": "Person",
+            "id": "144405512"
           }
         },
-        "links": {
-          "self": "https://api.planningcenteronline.com/services/v2/songs/26124163/arrangements/30350780"
+        "song": {
+          "data": {
+            "type": "Song",
+            "id": "26133086"
+          }
         }
+      },
+      "links": {
+        "self": "https://api.planningcenteronline.com/services/v2/songs/26133086/arrangements/30361779"
       }
-    ],
-    [
-      {
-        "type": "Arrangement",
-        "id": "30374064",
-        "attributes": {
-          "archived_at": null,
-          "bpm": null,
-          "chord_chart": "Verse 1\n\nI will worship (I will worship)\nWith all of my heart (with all of my heart)\nI will praise You (I will praise You)\nWith all of my strength (all my strength)\n\nI will seek You (I will seek You)\nAll of my days (all of my days)\nI will follow (I will follow)\nAll of Your ways (all Your ways)\n\nChorus 1\n\nI will give You all my worship\nI will give You all my praise\nYou alone I long to worship\nYou alone are worthy of my praise\n\nVerse 2\n\nI will bow down (I will bow down)\nAnd hail You as King (and hail You as King)\nI will serve You (I will serve You)\nGive You everything (everything)\n\nI will lift up (I will lift up)\nMy eyes to Your throne (my eyes to Your throne)\nI will trust You (I will trust You)\nTrust You alone (You alone)",
-          "chord_chart_chord_color": 0,
-          "chord_chart_columns": 1,
-          "chord_chart_font": "Courier",
-          "chord_chart_font_size": 12,
-          "chord_chart_key": "F",
-          "created_at": "2024-04-22T19:17:20Z",
-          "has_chord_chart": true,
-          "has_chords": false,
-          "length": 0,
-          "lyrics": "Verse 1\n\nI will worship (I will worship)\nWith all of my heart (with all of my heart)\nI will praise You (I will praise You)\nWith all of my strength (all my strength)\n\nI will seek You (I will seek You)\nAll of my days (all of my days)\nI will follow (I will follow)\nAll of Your ways (all Your ways)\n\nChorus 1\n\nI will give You all my worship\nI will give You all my praise\nYou alone I long to worship\nYou alone are worthy of my praise\n\nVerse 2\n\nI will bow down (I will bow down)\nAnd hail You as King (and hail You as King)\nI will serve You (I will serve You)\nGive You everything (everything)\n\nI will lift up (I will lift up)\nMy eyes to Your throne (my eyes to Your throne)\nI will trust You (I will trust You)\nTrust You alone (You alone)",
-          "lyrics_enabled": true,
-          "meter": null,
-          "name": "Default Arrangement",
-          "notes": null,
-          "number_chart_enabled": false,
-          "numeral_chart_enabled": false,
-          "print_margin": "0.5in",
-          "print_orientation": "Portrait",
-          "print_page_size": "Letter",
-          "sequence": [],
-          "sequence_full": [],
-          "sequence_short": [],
-          "updated_at": "2024-04-25T07:36:53Z"
-        },
-        "relationships": {
-          "updated_by": {
-            "data": {
-              "type": "Person",
-              "id": "145091105"
-            }
-          },
-          "created_by": {
-            "data": {
-              "type": "Person",
-              "id": "145091105"
-            }
-          },
-          "song": {
-            "data": {
-              "type": "Song",
-              "id": "26143179"
-            }
+    },
+    {
+      "type": "Arrangement",
+      "id": "30196611",
+      "attributes": {
+        "archived_at": null,
+        "bpm": null,
+        "chord_chart": "Verse 1\n\nThe greatest day in history\nDeath is beaten You have rescued me\nSing it out Jesus is alive\nThe empty cross the empty grave\nLife eternal You have won the day\nShout it out Jesus is alive\nHe's alive\n\nChorus 1\n\nAnd oh happy day happy day\nYou washed my sin away\nOh happy day happy day\nI'll never be the same\nForever I am changed\n(What a glorious glorious day)\n(I'll never be the same)\n\nVerse 2\n\nWhen I stand in that place\nFree at last meeting face to face\nI am Yours Jesus You are mine\nEndless joy perfect peace\nEarthly pain finally will cease\nCelebrate Jesus is alive\nHe's alive\n\nMisc 1\n\nOh what a glorious day\nWhat a glorious way\nThat You have saved me\nAnd oh what a glorious day\nWhat a glorious name\nHey\n\nMisc 2\n\nWhat a glorious glorious day\nI'll never be the same",
+        "chord_chart_chord_color": 0,
+        "chord_chart_columns": 1,
+        "chord_chart_font": "Courier",
+        "chord_chart_font_size": 12,
+        "chord_chart_key": "Bb",
+        "created_at": "2024-03-26T18:54:49Z",
+        "has_chord_chart": true,
+        "has_chords": false,
+        "length": 0,
+        "lyrics": "Verse 1\n\nThe greatest day in history\nDeath is beaten You have rescued me\nSing it out Jesus is alive\nThe empty cross the empty grave\nLife eternal You have won the day\nShout it out Jesus is alive\nHe's alive\n\nChorus 1\n\nAnd oh happy day happy day\nYou washed my sin away\nOh happy day happy day\nI'll never be the same\nForever I am changed\n(What a glorious glorious day)\n(I'll never be the same)\n\nVerse 2\n\nWhen I stand in that place\nFree at last meeting face to face\nI am Yours Jesus You are mine\nEndless joy perfect peace\nEarthly pain finally will cease\nCelebrate Jesus is alive\nHe's alive\n\nMisc 1\n\nOh what a glorious day\nWhat a glorious way\nThat You have saved me\nAnd oh what a glorious day\nWhat a glorious name\nHey\n\nMisc 2\n\nWhat a glorious glorious day\nI'll never be the same",
+        "lyrics_enabled": true,
+        "meter": null,
+        "name": "Default Arrangement",
+        "notes": null,
+        "number_chart_enabled": false,
+        "numeral_chart_enabled": false,
+        "print_margin": "0.5in",
+        "print_orientation": "Portrait",
+        "print_page_size": "Letter",
+        "sequence": [],
+        "sequence_full": [],
+        "sequence_short": [],
+        "updated_at": "2024-04-10T21:00:53Z"
+      },
+      "relationships": {
+        "updated_by": {
+          "data": {
+            "type": "Person",
+            "id": "144451464"
           }
         },
-        "links": {
-          "self": "https://api.planningcenteronline.com/services/v2/songs/26143179/arrangements/30374064"
-        }
-      }
-    ],
-    [
-      {
-        "type": "Arrangement",
-        "id": "30370217",
-        "attributes": {
-          "archived_at": null,
-          "bpm": 80,
-          "chord_chart": "Verse 1\n\nYour grace is enough\nMore than I need\nAt Your word I will believe\nI wait for You\nDraw near again\nLet Your Spirit make me new\n\nChorus 1\n\nAnd I will fall at Your feet\nI will fall at Your feet\nAnd I will worship You here\n\nVerse 2\n\nYour presence in me\nJesus light the way\nBy the power of Your word\nI am restored\nI am redeemed\nBy Your Spirit I am free\n\nMisc 1\n\nFreely You gave it all for us\nSurrendered Your life upon that cross\nGreat is the love poured out for all\nThis is our God\nLifted on high from death to life\nForever our God is glorified\nServant and King rescued the world\nThis is our God",
-          "chord_chart_chord_color": 0,
-          "chord_chart_columns": 1,
-          "chord_chart_font": "Courier",
-          "chord_chart_font_size": 12,
-          "chord_chart_key": "E",
-          "created_at": "2024-04-22T06:59:20Z",
-          "has_chord_chart": true,
-          "has_chords": false,
-          "length": 374,
-          "lyrics": "Verse 1\n\nYour grace is enough\nMore than I need\nAt Your word I will believe\nI wait for You\nDraw near again\nLet Your Spirit make me new\n\nChorus 1\n\nAnd I will fall at Your feet\nI will fall at Your feet\nAnd I will worship You here\n\nVerse 2\n\nYour presence in me\nJesus light the way\nBy the power of Your word\nI am restored\nI am redeemed\nBy Your Spirit I am free\n\nMisc 1\n\nFreely You gave it all for us\nSurrendered Your life upon that cross\nGreat is the love poured out for all\nThis is our God\nLifted on high from death to life\nForever our God is glorified\nServant and King rescued the world\nThis is our God",
-          "lyrics_enabled": true,
-          "meter": "4/4",
-          "name": "Hillsong Worship",
-          "notes": null,
-          "number_chart_enabled": false,
-          "numeral_chart_enabled": false,
-          "print_margin": "0.5in",
-          "print_orientation": "Portrait",
-          "print_page_size": "Letter",
-          "sequence": [
-            "Intro",
-            "Verse 1",
-            "Chorus",
-            "Instrumental",
-            "Verse 2",
-            "Chorus",
-            "Instrumental",
-            "Instrumental",
-            "Bridge",
-            "Bridge",
-            "Bridge",
-            "Breakdown",
-            "Chorus",
-            "Chorus",
-            "Bridge",
-            "Bridge",
-            "Ending"
-          ],
-          "sequence_full": [
-            {
-              "label": "Intro",
-              "number": "1",
-              "t": "00:06:000",
-              "sid": 82815
-            },
-            {
-              "label": "Verse",
-              "number": "1",
-              "t": "00:30:003",
-              "sid": 82816
-            },
-            {
-              "label": "Chorus",
-              "number": "1",
-              "t": "00:54:006",
-              "sid": 82817
-            },
-            {
-              "label": "Instrumental",
-              "number": "1",
-              "t": "01:18:009",
-              "sid": 82818
-            },
-            {
-              "label": "Verse",
-              "number": "2",
-              "t": "01:30:011",
-              "sid": 82819
-            },
-            {
-              "label": "Chorus",
-              "number": "1",
-              "t": "01:54:014",
-              "sid": 82820
-            },
-            {
-              "label": "Instrumental",
-              "number": "1",
-              "t": "02:18:017",
-              "sid": 82821
-            },
-            {
-              "label": "Instrumental",
-              "number": "1",
-              "t": "02:42:020",
-              "sid": 82822
-            },
-            {
-              "label": "Bridge",
-              "number": "1",
-              "t": "03:06:023",
-              "sid": 82823
-            },
-            {
-              "label": "Bridge",
-              "number": "1",
-              "t": "03:30:026",
-              "sid": 82824
-            },
-            {
-              "label": "Bridge",
-              "number": "1",
-              "t": "03:54:029",
-              "sid": 82825
-            },
-            {
-              "label": "Breakdown",
-              "number": "1",
-              "t": "04:15:031",
-              "sid": 82826
-            },
-            {
-              "label": "Chorus",
-              "number": "1",
-              "t": "04:24:033",
-              "sid": 82827
-            },
-            {
-              "label": "Chorus",
-              "number": "1",
-              "t": "04:48:036",
-              "sid": 82828
-            },
-            {
-              "label": "Bridge",
-              "number": "1",
-              "t": "05:12:039",
-              "sid": 82829
-            },
-            {
-              "label": "Bridge",
-              "number": "1",
-              "t": "05:36:042",
-              "sid": 82830
-            },
-            {
-              "label": "Ending",
-              "number": "1",
-              "t": "05:57:044",
-              "sid": 82831
-            }
-          ],
-          "sequence_short": [
-            "Intro",
-            "V1",
-            "C",
-            "Inst",
-            "V2",
-            "C",
-            "Inst\u00d72",
-            "B\u00d73",
-            "Breakdown",
-            "C\u00d72",
-            "B\u00d72",
-            "E"
-          ],
-          "updated_at": "2024-04-22T06:59:21Z"
-        },
-        "relationships": {
-          "updated_by": {
-            "data": {
-              "type": "Person",
-              "id": "145091105"
-            }
-          },
-          "created_by": {
-            "data": {
-              "type": "Person",
-              "id": "145091105"
-            }
-          },
-          "song": {
-            "data": {
-              "type": "Song",
-              "id": "26140020"
-            }
+        "created_by": {
+          "data": {
+            "type": "Person",
+            "id": "144406086"
           }
         },
-        "links": {
-          "self": "https://api.planningcenteronline.com/services/v2/songs/26140020/arrangements/30370217"
+        "song": {
+          "data": {
+            "type": "Song",
+            "id": "26001798"
+          }
         }
+      },
+      "links": {
+        "self": "https://api.planningcenteronline.com/services/v2/songs/26001798/arrangements/30196611"
       }
-    ],
-    [
-      {
-        "type": "Arrangement",
-        "id": "30196943",
-        "attributes": {
-          "archived_at": null,
-          "bpm": null,
-          "chord_chart": "Verse 1\n\nThere's nothing worth more that will ever come close\nNo thing can compare You're our living hope\nYour Presence\n\nVerse 2\n\nI've tasted and seen of the sweetest of loves\nWhere my heart becomes free and my shame is undone\nIn Your Presence Lord\n\nChorus 1\n\nHoly Spirit You are welcome here\nCome flood this place and fill the atmosphere\nYour glory God is what our hearts long for\nTo be overcome by Your Presence Lord\n\nMisc 1\n\nYour Presence Lord\n\nMisc 2\n\nYour Presence Lord\nYour Presence\nOh God how we love Your Presence Lord\n\nMisc 3\n\nLet us become more aware of Your Presence\nLet us experience the glory of Your goodness (Lord)",
-          "chord_chart_chord_color": 0,
-          "chord_chart_columns": 1,
-          "chord_chart_font": "Courier",
-          "chord_chart_font_size": 12,
-          "chord_chart_key": "G",
-          "created_at": "2024-03-26T19:16:03Z",
-          "has_chord_chart": true,
-          "has_chords": false,
-          "length": 0,
-          "lyrics": "Verse 1\n\nThere's nothing worth more that will ever come close\nNo thing can compare You're our living hope\nYour Presence\n\nVerse 2\n\nI've tasted and seen of the sweetest of loves\nWhere my heart becomes free and my shame is undone\nIn Your Presence Lord\n\nChorus 1\n\nHoly Spirit You are welcome here\nCome flood this place and fill the atmosphere\nYour glory God is what our hearts long for\nTo be overcome by Your Presence Lord\n\nMisc 1\n\nYour Presence Lord\n\nMisc 2\n\nYour Presence Lord\nYour Presence\nOh God how we love Your Presence Lord\n\nMisc 3\n\nLet us become more aware of Your Presence\nLet us experience the glory of Your goodness (Lord)",
-          "lyrics_enabled": true,
-          "meter": null,
-          "name": "Default Arrangement",
-          "notes": null,
-          "number_chart_enabled": false,
-          "numeral_chart_enabled": false,
-          "print_margin": "0.5in",
-          "print_orientation": "Portrait",
-          "print_page_size": "Letter",
-          "sequence": [],
-          "sequence_full": [],
-          "sequence_short": [],
-          "updated_at": "2024-03-26T19:16:04Z"
-        },
-        "relationships": {
-          "updated_by": {
-            "data": {
-              "type": "Person",
-              "id": "144405512"
-            }
+    },
+    {
+      "type": "Arrangement",
+      "id": "30350780",
+      "attributes": {
+        "archived_at": null,
+        "bpm": 72.5,
+        "chord_chart": "Verse 1\n\nBlessed are those who run to Him\nWho place their hope and confidence in Jesus\nHe won\u2019t forsake them\nBlessed are those who seek His face\nWho bend their knee and fix their gaze on Jesus\nThey won\u2019t be shaken\n\nChorus 1\n\nCome on and praise the Lord with me\nSing if you love His name\nCome on and lift your voice with me\nHe\u2019s worthy of all our praise\n\nVerse 2\n\nBlessed are those who walk with Him\nWhose hearts are set on pilgrimage with Jesus\nThey\u2019ll see His glory\nBlessed are those who die to live\nWhose joy it is to give it all for Jesus\nAnd for Him only\nOh Jesus all for Your glory\n\nChorus 2\n\nCome on and praise the Lord with me\nSing if you love His name\nCome on and lift your voice with me\nHe\u2019s worthy of all our praise\n\nCome on and bring your offering\nSing if you\u2019ve known His grace\nCome on and lift up your holy hands\nHe\u2019s worthy of all our praise\n\nMisc 1\n\nBless God in the sanctuary\nBless God in the fields of plenty\nBless God in the darkest valley\nEvery chance I get I bless Your name\n\nBless God when my hands are empty\nBless God with a praise that costs me\nBless God when nobody\u2019s watching\nEvery chance I get I bless Your name\n\nBless God when the weapon\u2019s forming\nBless God when the walls are falling\nBless God \u2018cause He goes before me\nEvery chance I get I bless Your name\n\nBless God for He holds the vict\u2019ry\nBless God for He\u2019s always with me\nBless God for He\u2019s always worthy\nEvery chance I get I bless Your name\n\nMisc 2\n\nEvery chance I get I bless Your name\n\nMisc 3\n\nHe\u2019s worthy of all our praise\nHe\u2019s worthy of all our praise",
+        "chord_chart_chord_color": 0,
+        "chord_chart_columns": 1,
+        "chord_chart_font": "Courier",
+        "chord_chart_font_size": 12,
+        "chord_chart_key": "G",
+        "created_at": "2024-04-18T07:57:28Z",
+        "has_chord_chart": true,
+        "has_chords": false,
+        "length": 297,
+        "lyrics": "Verse 1\n\nBlessed are those who run to Him\nWho place their hope and confidence in Jesus\nHe won\u2019t forsake them\nBlessed are those who seek His face\nWho bend their knee and fix their gaze on Jesus\nThey won\u2019t be shaken\n\nChorus 1\n\nCome on and praise the Lord with me\nSing if you love His name\nCome on and lift your voice with me\nHe\u2019s worthy of all our praise\n\nVerse 2\n\nBlessed are those who walk with Him\nWhose hearts are set on pilgrimage with Jesus\nThey\u2019ll see His glory\nBlessed are those who die to live\nWhose joy it is to give it all for Jesus\nAnd for Him only\nOh Jesus all for Your glory\n\nChorus 2\n\nCome on and praise the Lord with me\nSing if you love His name\nCome on and lift your voice with me\nHe\u2019s worthy of all our praise\n\nCome on and bring your offering\nSing if you\u2019ve known His grace\nCome on and lift up your holy hands\nHe\u2019s worthy of all our praise\n\nMisc 1\n\nBless God in the sanctuary\nBless God in the fields of plenty\nBless God in the darkest valley\nEvery chance I get I bless Your name\n\nBless God when my hands are empty\nBless God with a praise that costs me\nBless God when nobody\u2019s watching\nEvery chance I get I bless Your name\n\nBless God when the weapon\u2019s forming\nBless God when the walls are falling\nBless God \u2018cause He goes before me\nEvery chance I get I bless Your name\n\nBless God for He holds the vict\u2019ry\nBless God for He\u2019s always with me\nBless God for He\u2019s always worthy\nEvery chance I get I bless Your name\n\nMisc 2\n\nEvery chance I get I bless Your name\n\nMisc 3\n\nHe\u2019s worthy of all our praise\nHe\u2019s worthy of all our praise",
+        "lyrics_enabled": true,
+        "meter": "4/4",
+        "name": "Brooke Ligertwood",
+        "notes": null,
+        "number_chart_enabled": false,
+        "numeral_chart_enabled": false,
+        "print_margin": "0.5in",
+        "print_orientation": "Portrait",
+        "print_page_size": "Letter",
+        "sequence": [
+          "Intro",
+          "Verse 1",
+          "Chorus 1",
+          "Vamp",
+          "Verse 2",
+          "Tag",
+          "Chorus 1",
+          "Chorus 2",
+          "Bridge 1",
+          "Bridge 2",
+          "Bridge 3",
+          "Bridge 4",
+          "Chorus 1",
+          "Chorus 2",
+          "Tag",
+          "Ending"
+        ],
+        "sequence_full": [
+          {
+            "label": "Intro",
+            "number": 1,
+            "t": "00:06:620",
+            "sid": 671241,
+            "id": 1
           },
-          "created_by": {
-            "data": {
-              "type": "Person",
-              "id": "144405512"
-            }
+          {
+            "label": "Verse",
+            "number": 1,
+            "t": "00:19:862",
+            "sid": 671242,
+            "id": 2
           },
-          "song": {
-            "data": {
-              "type": "Song",
-              "id": "26002062"
-            }
+          {
+            "label": "Chorus",
+            "number": 1,
+            "t": "00:46:344",
+            "sid": 671243,
+            "id": 3
+          },
+          {
+            "label": "Vamp",
+            "number": 1,
+            "t": "01:12:827",
+            "sid": 671244,
+            "id": 4
+          },
+          {
+            "label": "Verse",
+            "number": 2,
+            "t": "01:16:137",
+            "sid": 671245,
+            "id": 5
+          },
+          {
+            "label": "Tag",
+            "number": 1,
+            "t": "01:42:620",
+            "sid": 671246,
+            "id": 6
+          },
+          {
+            "label": "Chorus",
+            "number": 1,
+            "t": "01:49:241",
+            "sid": 671247,
+            "id": 7
+          },
+          {
+            "label": "Chorus",
+            "number": 2,
+            "t": "02:15:724",
+            "sid": 671248,
+            "id": 8
+          },
+          {
+            "label": "Bridge",
+            "number": 1,
+            "t": "02:42:206",
+            "sid": 671249,
+            "id": 9
+          },
+          {
+            "label": "Bridge",
+            "number": 2,
+            "t": "02:55:448",
+            "sid": 671250,
+            "id": 10
+          },
+          {
+            "label": "Bridge",
+            "number": 3,
+            "t": "03:08:689",
+            "sid": 671251,
+            "id": 11
+          },
+          {
+            "label": "Bridge",
+            "number": 4,
+            "t": "03:21:931",
+            "sid": 671252,
+            "id": 12
+          },
+          {
+            "label": "Chorus",
+            "number": 1,
+            "t": "03:48:413",
+            "sid": 671255,
+            "id": 15
+          },
+          {
+            "label": "Chorus",
+            "number": 2,
+            "t": "04:14:896",
+            "sid": 671256,
+            "id": 16
+          },
+          {
+            "label": "Tag",
+            "number": 1,
+            "t": "04:41:379",
+            "sid": 671257,
+            "id": 17
+          },
+          {
+            "label": "Ending",
+            "number": 1,
+            "t": "04:48:000",
+            "sid": 671258,
+            "id": 18
+          }
+        ],
+        "sequence_short": [
+          "Intro",
+          "V1",
+          "C1",
+          "Vamp",
+          "V2",
+          "Tag",
+          "C1",
+          "C2",
+          "B1",
+          "B2",
+          "B3",
+          "B4",
+          "C1",
+          "C2",
+          "Tag",
+          "E"
+        ],
+        "updated_at": "2024-04-19T18:45:19Z"
+      },
+      "relationships": {
+        "updated_by": {
+          "data": {
+            "type": "Person",
+            "id": "145090912"
           }
         },
-        "links": {
-          "self": "https://api.planningcenteronline.com/services/v2/songs/26002062/arrangements/30196943"
-        }
-      }
-    ],
-    [
-      {
-        "type": "Arrangement",
-        "id": "30357450",
-        "attributes": {
-          "archived_at": null,
-          "bpm": null,
-          "chord_chart": "Verse 1\n\nThere is a day coming\nWhen the old will pass away\nEvery wrong will be made right\nNo darkness no night\nThe Son will light the way\n\nVerse 2\n\nThere is a king coming\nThe one who conquered death and grave\nNo more pain and no more sorrow\nThis hope for tomorrow\nIs our hope for today\n\nMisc 1\n\nHe who was He who is\nHe who was He who is\n\nChorus 1\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n\nVerse 3\n\nThere's only One worthy\nOf all glory and all praise\nAll wealth and all honor\nSpeak wisdom and power to the Lamb that was slain oh\n\nMisc 2\n\nHallelujah hallelujah\n\nVerse 4\n\nHe is surely coming\nOh can you feel it too\nAll this tension growing stronger\nIt's just a sign He's getting closer\nHe's already on the move\n\nVerse 5\n\nYeah the story has been written\nWe all know how it ends\nMy future has an anchor\nMy eyes are on the Savior\nHe's coming back again\n\nChorus 2\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n(REPEAT)\n\nHallelujah hallelujah\nHallelujah hallelujah\n\nMisc 3\n\nLord we wait oh we pray\nWe're waiting on You\nWith our eyes on the horizon\nWe are hungry we are thirsty\nWould You come\nWe pray we pray\n\nMisc 4\n\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come (we wait we pray)\n(REPEAT)",
-          "chord_chart_chord_color": 0,
-          "chord_chart_columns": 1,
-          "chord_chart_font": "Courier",
-          "chord_chart_font_size": 12,
-          "chord_chart_key": "G",
-          "created_at": "2024-04-19T07:50:06Z",
-          "has_chord_chart": true,
-          "has_chords": false,
-          "length": 0,
-          "lyrics": "Verse 1\n\nThere is a day coming\nWhen the old will pass away\nEvery wrong will be made right\nNo darkness no night\nThe Son will light the way\n\nVerse 2\n\nThere is a king coming\nThe one who conquered death and grave\nNo more pain and no more sorrow\nThis hope for tomorrow\nIs our hope for today\n\nMisc 1\n\nHe who was He who is\nHe who was He who is\n\nChorus 1\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n\nVerse 3\n\nThere's only One worthy\nOf all glory and all praise\nAll wealth and all honor\nSpeak wisdom and power to the Lamb that was slain oh\n\nMisc 2\n\nHallelujah hallelujah\n\nVerse 4\n\nHe is surely coming\nOh can you feel it too\nAll this tension growing stronger\nIt's just a sign He's getting closer\nHe's already on the move\n\nVerse 5\n\nYeah the story has been written\nWe all know how it ends\nMy future has an anchor\nMy eyes are on the Savior\nHe's coming back again\n\nChorus 2\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n(REPEAT)\n\nHallelujah hallelujah\nHallelujah hallelujah\n\nMisc 3\n\nLord we wait oh we pray\nWe're waiting on You\nWith our eyes on the horizon\nWe are hungry we are thirsty\nWould You come\nWe pray we pray\n\nMisc 4\n\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come (we wait we pray)\n(REPEAT)",
-          "lyrics_enabled": true,
-          "meter": null,
-          "name": "Default Arrangement",
-          "notes": null,
-          "number_chart_enabled": false,
-          "numeral_chart_enabled": false,
-          "print_margin": "0.5in",
-          "print_orientation": "Portrait",
-          "print_page_size": "Letter",
-          "sequence": [],
-          "sequence_full": [],
-          "sequence_short": [],
-          "updated_at": "2024-04-27T09:47:47Z"
-        },
-        "relationships": {
-          "updated_by": {
-            "data": {
-              "type": "Person",
-              "id": "145091105"
-            }
-          },
-          "created_by": {
-            "data": {
-              "type": "Person",
-              "id": "145091105"
-            }
-          },
-          "song": {
-            "data": {
-              "type": "Song",
-              "id": "26129559"
-            }
+        "created_by": {
+          "data": {
+            "type": "Person",
+            "id": "145091105"
           }
         },
-        "links": {
-          "self": "https://api.planningcenteronline.com/services/v2/songs/26129559/arrangements/30357450"
+        "song": {
+          "data": {
+            "type": "Song",
+            "id": "26124163"
+          }
         }
+      },
+      "links": {
+        "self": "https://api.planningcenteronline.com/services/v2/songs/26124163/arrangements/30350780"
       }
-    ]
+    },
+    {
+      "type": "Arrangement",
+      "id": "30374064",
+      "attributes": {
+        "archived_at": null,
+        "bpm": null,
+        "chord_chart": "Verse 1\n\nI will worship (I will worship)\nWith all of my heart (with all of my heart)\nI will praise You (I will praise You)\nWith all of my strength (all my strength)\n\nI will seek You (I will seek You)\nAll of my days (all of my days)\nI will follow (I will follow)\nAll of Your ways (all Your ways)\n\nChorus 1\n\nI will give You all my worship\nI will give You all my praise\nYou alone I long to worship\nYou alone are worthy of my praise\n\nVerse 2\n\nI will bow down (I will bow down)\nAnd hail You as King (and hail You as King)\nI will serve You (I will serve You)\nGive You everything (everything)\n\nI will lift up (I will lift up)\nMy eyes to Your throne (my eyes to Your throne)\nI will trust You (I will trust You)\nTrust You alone (You alone)",
+        "chord_chart_chord_color": 0,
+        "chord_chart_columns": 1,
+        "chord_chart_font": "Courier",
+        "chord_chart_font_size": 12,
+        "chord_chart_key": "F",
+        "created_at": "2024-04-22T19:17:20Z",
+        "has_chord_chart": true,
+        "has_chords": false,
+        "length": 0,
+        "lyrics": "Verse 1\n\nI will worship (I will worship)\nWith all of my heart (with all of my heart)\nI will praise You (I will praise You)\nWith all of my strength (all my strength)\n\nI will seek You (I will seek You)\nAll of my days (all of my days)\nI will follow (I will follow)\nAll of Your ways (all Your ways)\n\nChorus 1\n\nI will give You all my worship\nI will give You all my praise\nYou alone I long to worship\nYou alone are worthy of my praise\n\nVerse 2\n\nI will bow down (I will bow down)\nAnd hail You as King (and hail You as King)\nI will serve You (I will serve You)\nGive You everything (everything)\n\nI will lift up (I will lift up)\nMy eyes to Your throne (my eyes to Your throne)\nI will trust You (I will trust You)\nTrust You alone (You alone)",
+        "lyrics_enabled": true,
+        "meter": null,
+        "name": "Default Arrangement",
+        "notes": null,
+        "number_chart_enabled": false,
+        "numeral_chart_enabled": false,
+        "print_margin": "0.5in",
+        "print_orientation": "Portrait",
+        "print_page_size": "Letter",
+        "sequence": [],
+        "sequence_full": [],
+        "sequence_short": [],
+        "updated_at": "2024-04-25T07:36:53Z"
+      },
+      "relationships": {
+        "updated_by": {
+          "data": {
+            "type": "Person",
+            "id": "145091105"
+          }
+        },
+        "created_by": {
+          "data": {
+            "type": "Person",
+            "id": "145091105"
+          }
+        },
+        "song": {
+          "data": {
+            "type": "Song",
+            "id": "26143179"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.planningcenteronline.com/services/v2/songs/26143179/arrangements/30374064"
+      }
+    },
+    {
+      "type": "Arrangement",
+      "id": "30370217",
+      "attributes": {
+        "archived_at": null,
+        "bpm": 80,
+        "chord_chart": "Verse 1\n\nYour grace is enough\nMore than I need\nAt Your word I will believe\nI wait for You\nDraw near again\nLet Your Spirit make me new\n\nChorus 1\n\nAnd I will fall at Your feet\nI will fall at Your feet\nAnd I will worship You here\n\nVerse 2\n\nYour presence in me\nJesus light the way\nBy the power of Your word\nI am restored\nI am redeemed\nBy Your Spirit I am free\n\nMisc 1\n\nFreely You gave it all for us\nSurrendered Your life upon that cross\nGreat is the love poured out for all\nThis is our God\nLifted on high from death to life\nForever our God is glorified\nServant and King rescued the world\nThis is our God",
+        "chord_chart_chord_color": 0,
+        "chord_chart_columns": 1,
+        "chord_chart_font": "Courier",
+        "chord_chart_font_size": 12,
+        "chord_chart_key": "E",
+        "created_at": "2024-04-22T06:59:20Z",
+        "has_chord_chart": true,
+        "has_chords": false,
+        "length": 374,
+        "lyrics": "Verse 1\n\nYour grace is enough\nMore than I need\nAt Your word I will believe\nI wait for You\nDraw near again\nLet Your Spirit make me new\n\nChorus 1\n\nAnd I will fall at Your feet\nI will fall at Your feet\nAnd I will worship You here\n\nVerse 2\n\nYour presence in me\nJesus light the way\nBy the power of Your word\nI am restored\nI am redeemed\nBy Your Spirit I am free\n\nMisc 1\n\nFreely You gave it all for us\nSurrendered Your life upon that cross\nGreat is the love poured out for all\nThis is our God\nLifted on high from death to life\nForever our God is glorified\nServant and King rescued the world\nThis is our God",
+        "lyrics_enabled": true,
+        "meter": "4/4",
+        "name": "Hillsong Worship",
+        "notes": null,
+        "number_chart_enabled": false,
+        "numeral_chart_enabled": false,
+        "print_margin": "0.5in",
+        "print_orientation": "Portrait",
+        "print_page_size": "Letter",
+        "sequence": [
+          "Intro",
+          "Verse 1",
+          "Chorus",
+          "Instrumental",
+          "Verse 2",
+          "Chorus",
+          "Instrumental",
+          "Instrumental",
+          "Bridge",
+          "Bridge",
+          "Bridge",
+          "Breakdown",
+          "Chorus",
+          "Chorus",
+          "Bridge",
+          "Bridge",
+          "Ending"
+        ],
+        "sequence_full": [
+          {
+            "label": "Intro",
+            "number": "1",
+            "t": "00:06:000",
+            "sid": 82815
+          },
+          {
+            "label": "Verse",
+            "number": "1",
+            "t": "00:30:003",
+            "sid": 82816
+          },
+          {
+            "label": "Chorus",
+            "number": "1",
+            "t": "00:54:006",
+            "sid": 82817
+          },
+          {
+            "label": "Instrumental",
+            "number": "1",
+            "t": "01:18:009",
+            "sid": 82818
+          },
+          {
+            "label": "Verse",
+            "number": "2",
+            "t": "01:30:011",
+            "sid": 82819
+          },
+          {
+            "label": "Chorus",
+            "number": "1",
+            "t": "01:54:014",
+            "sid": 82820
+          },
+          {
+            "label": "Instrumental",
+            "number": "1",
+            "t": "02:18:017",
+            "sid": 82821
+          },
+          {
+            "label": "Instrumental",
+            "number": "1",
+            "t": "02:42:020",
+            "sid": 82822
+          },
+          {
+            "label": "Bridge",
+            "number": "1",
+            "t": "03:06:023",
+            "sid": 82823
+          },
+          {
+            "label": "Bridge",
+            "number": "1",
+            "t": "03:30:026",
+            "sid": 82824
+          },
+          {
+            "label": "Bridge",
+            "number": "1",
+            "t": "03:54:029",
+            "sid": 82825
+          },
+          {
+            "label": "Breakdown",
+            "number": "1",
+            "t": "04:15:031",
+            "sid": 82826
+          },
+          {
+            "label": "Chorus",
+            "number": "1",
+            "t": "04:24:033",
+            "sid": 82827
+          },
+          {
+            "label": "Chorus",
+            "number": "1",
+            "t": "04:48:036",
+            "sid": 82828
+          },
+          {
+            "label": "Bridge",
+            "number": "1",
+            "t": "05:12:039",
+            "sid": 82829
+          },
+          {
+            "label": "Bridge",
+            "number": "1",
+            "t": "05:36:042",
+            "sid": 82830
+          },
+          {
+            "label": "Ending",
+            "number": "1",
+            "t": "05:57:044",
+            "sid": 82831
+          }
+        ],
+        "sequence_short": [
+          "Intro",
+          "V1",
+          "C",
+          "Inst",
+          "V2",
+          "C",
+          "Inst\u00d72",
+          "B\u00d73",
+          "Breakdown",
+          "C\u00d72",
+          "B\u00d72",
+          "E"
+        ],
+        "updated_at": "2024-04-22T06:59:21Z"
+      },
+      "relationships": {
+        "updated_by": {
+          "data": {
+            "type": "Person",
+            "id": "145091105"
+          }
+        },
+        "created_by": {
+          "data": {
+            "type": "Person",
+            "id": "145091105"
+          }
+        },
+        "song": {
+          "data": {
+            "type": "Song",
+            "id": "26140020"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.planningcenteronline.com/services/v2/songs/26140020/arrangements/30370217"
+      }
+    },
+    {
+      "type": "Arrangement",
+      "id": "30196943",
+      "attributes": {
+        "archived_at": null,
+        "bpm": null,
+        "chord_chart": "Verse 1\n\nThere's nothing worth more that will ever come close\nNo thing can compare You're our living hope\nYour Presence\n\nVerse 2\n\nI've tasted and seen of the sweetest of loves\nWhere my heart becomes free and my shame is undone\nIn Your Presence Lord\n\nChorus 1\n\nHoly Spirit You are welcome here\nCome flood this place and fill the atmosphere\nYour glory God is what our hearts long for\nTo be overcome by Your Presence Lord\n\nMisc 1\n\nYour Presence Lord\n\nMisc 2\n\nYour Presence Lord\nYour Presence\nOh God how we love Your Presence Lord\n\nMisc 3\n\nLet us become more aware of Your Presence\nLet us experience the glory of Your goodness (Lord)",
+        "chord_chart_chord_color": 0,
+        "chord_chart_columns": 1,
+        "chord_chart_font": "Courier",
+        "chord_chart_font_size": 12,
+        "chord_chart_key": "G",
+        "created_at": "2024-03-26T19:16:03Z",
+        "has_chord_chart": true,
+        "has_chords": false,
+        "length": 0,
+        "lyrics": "Verse 1\n\nThere's nothing worth more that will ever come close\nNo thing can compare You're our living hope\nYour Presence\n\nVerse 2\n\nI've tasted and seen of the sweetest of loves\nWhere my heart becomes free and my shame is undone\nIn Your Presence Lord\n\nChorus 1\n\nHoly Spirit You are welcome here\nCome flood this place and fill the atmosphere\nYour glory God is what our hearts long for\nTo be overcome by Your Presence Lord\n\nMisc 1\n\nYour Presence Lord\n\nMisc 2\n\nYour Presence Lord\nYour Presence\nOh God how we love Your Presence Lord\n\nMisc 3\n\nLet us become more aware of Your Presence\nLet us experience the glory of Your goodness (Lord)",
+        "lyrics_enabled": true,
+        "meter": null,
+        "name": "Default Arrangement",
+        "notes": null,
+        "number_chart_enabled": false,
+        "numeral_chart_enabled": false,
+        "print_margin": "0.5in",
+        "print_orientation": "Portrait",
+        "print_page_size": "Letter",
+        "sequence": [],
+        "sequence_full": [],
+        "sequence_short": [],
+        "updated_at": "2024-03-26T19:16:04Z"
+      },
+      "relationships": {
+        "updated_by": {
+          "data": {
+            "type": "Person",
+            "id": "144405512"
+          }
+        },
+        "created_by": {
+          "data": {
+            "type": "Person",
+            "id": "144405512"
+          }
+        },
+        "song": {
+          "data": {
+            "type": "Song",
+            "id": "26002062"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.planningcenteronline.com/services/v2/songs/26002062/arrangements/30196943"
+      }
+    },
+    {
+      "type": "Arrangement",
+      "id": "30357450",
+      "attributes": {
+        "archived_at": null,
+        "bpm": null,
+        "chord_chart": "Verse 1\n\nThere is a day coming\nWhen the old will pass away\nEvery wrong will be made right\nNo darkness no night\nThe Son will light the way\n\nVerse 2\n\nThere is a king coming\nThe one who conquered death and grave\nNo more pain and no more sorrow\nThis hope for tomorrow\nIs our hope for today\n\nMisc 1\n\nHe who was He who is\nHe who was He who is\n\nChorus 1\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n\nVerse 3\n\nThere's only One worthy\nOf all glory and all praise\nAll wealth and all honor\nSpeak wisdom and power to the Lamb that was slain oh\n\nMisc 2\n\nHallelujah hallelujah\n\nVerse 4\n\nHe is surely coming\nOh can you feel it too\nAll this tension growing stronger\nIt's just a sign He's getting closer\nHe's already on the move\n\nVerse 5\n\nYeah the story has been written\nWe all know how it ends\nMy future has an anchor\nMy eyes are on the Savior\nHe's coming back again\n\nChorus 2\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n(REPEAT)\n\nHallelujah hallelujah\nHallelujah hallelujah\n\nMisc 3\n\nLord we wait oh we pray\nWe're waiting on You\nWith our eyes on the horizon\nWe are hungry we are thirsty\nWould You come\nWe pray we pray\n\nMisc 4\n\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come (we wait we pray)\n(REPEAT)",
+        "chord_chart_chord_color": 0,
+        "chord_chart_columns": 1,
+        "chord_chart_font": "Courier",
+        "chord_chart_font_size": 12,
+        "chord_chart_key": "G",
+        "created_at": "2024-04-19T07:50:06Z",
+        "has_chord_chart": true,
+        "has_chords": false,
+        "length": 0,
+        "lyrics": "Verse 1\n\nThere is a day coming\nWhen the old will pass away\nEvery wrong will be made right\nNo darkness no night\nThe Son will light the way\n\nVerse 2\n\nThere is a king coming\nThe one who conquered death and grave\nNo more pain and no more sorrow\nThis hope for tomorrow\nIs our hope for today\n\nMisc 1\n\nHe who was He who is\nHe who was He who is\n\nChorus 1\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n\nVerse 3\n\nThere's only One worthy\nOf all glory and all praise\nAll wealth and all honor\nSpeak wisdom and power to the Lamb that was slain oh\n\nMisc 2\n\nHallelujah hallelujah\n\nVerse 4\n\nHe is surely coming\nOh can you feel it too\nAll this tension growing stronger\nIt's just a sign He's getting closer\nHe's already on the move\n\nVerse 5\n\nYeah the story has been written\nWe all know how it ends\nMy future has an anchor\nMy eyes are on the Savior\nHe's coming back again\n\nChorus 2\n\nHe who is to come\nChrist the Son of man\nRiding on the clouds with a crown upon His head\nEvery eye will see Him\nWith the nail scars in His hands\nHallelujah hallelujah\n(REPEAT)\n\nHallelujah hallelujah\nHallelujah hallelujah\n\nMisc 3\n\nLord we wait oh we pray\nWe're waiting on You\nWith our eyes on the horizon\nWe are hungry we are thirsty\nWould You come\nWe pray we pray\n\nMisc 4\n\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come\nCome Lord Jesus come (we wait we pray)\n(REPEAT)",
+        "lyrics_enabled": true,
+        "meter": null,
+        "name": "Default Arrangement",
+        "notes": null,
+        "number_chart_enabled": false,
+        "numeral_chart_enabled": false,
+        "print_margin": "0.5in",
+        "print_orientation": "Portrait",
+        "print_page_size": "Letter",
+        "sequence": [],
+        "sequence_full": [],
+        "sequence_short": [],
+        "updated_at": "2024-04-27T09:47:47Z"
+      },
+      "relationships": {
+        "updated_by": {
+          "data": {
+            "type": "Person",
+            "id": "145091105"
+          }
+        },
+        "created_by": {
+          "data": {
+            "type": "Person",
+            "id": "145091105"
+          }
+        },
+        "song": {
+          "data": {
+            "type": "Song",
+            "id": "26129559"
+          }
+        }
+      },
+      "links": {
+        "self": "https://api.planningcenteronline.com/services/v2/songs/26129559/arrangements/30357450"
+      }
+    }
   ]
 }
