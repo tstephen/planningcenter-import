@@ -5,23 +5,28 @@ import logging
 from urllib import error, request
 from json import loads, load, dump
 
+from pydantic_settings import BaseSettings
+
 logger = logging.getLogger(__name__)
 
+class PlanningCenterOptions(BaseSettings):
+    """Load environment variables"""
+    pc_app_id: str
+    pc_secret: str
 
 class PlanningCenterClient:
     BASE_API_URL = "https://api.planningcenteronline.com/services/v2/"
     """
     wraps Planning Center Online API v2
     """
-    def __init__(self, application_id, secret):
+    def __init__(self, options: PlanningCenterOptions):
         """
         Initialize client with authentication and authorization info.
 
-        :param application_id: Application id from Planning Center Online
-        :param secret: Secret from Planning Center Online
+        :param options: PlanningCenterOptions reads epplication_id and secret
+                        from environment variables.
         """
-        self.application_id = application_id
-        self.secret = secret
+        self.options = options
         logging.basicConfig(level=logging.DEBUG)
 
     def do_api_call(self, url_suffix):
@@ -32,7 +37,7 @@ class PlanningCenterClient:
         """
         password_mgr = request.HTTPPasswordMgrWithDefaultRealm()
         password_mgr.add_password(realm=None, uri=self.BASE_API_URL,
-                                  user=self.application_id, passwd=self.secret)
+                                  user=self.options.pc_app_id, passwd=self.options.pc_secret)
         handler = request.HTTPBasicAuthHandler(password_mgr)
         opener = request.build_opener(handler)
         opener.open(f"{self.BASE_API_URL}{url_suffix}")
@@ -41,7 +46,7 @@ class PlanningCenterClient:
                                             .read()
         api_response_object = loads(api_response_string.decode("utf-8"))
         if logger.isEnabledFor(logging.DEBUG):
-            with open(f"{url_suffix}.json", 'w') as outfile:
+            with open(f"{url_suffix.replace('/', '-').replace('?','-').replace('&', '-')}.json", 'w') as outfile:
                 dump(api_response_object, outfile)
         return api_response_object
 
@@ -77,10 +82,23 @@ class PlanningCenterClient:
             future_plans = self.do_api_call(future_plans_query)
             past_plans_query = f"service_types/{service_type_id}/plans?filter=past&per_page={page_size}&order=-sort_date"
             past_plans = self.do_api_call(past_plans_query)
-            return list(reversed(future_plans['data'])) + past_plans['data']
+            return list(future_plans['data']) + past_plans['data']
         except error.HTTPError as e:
             logger.error("%s:%s", e.code, e.reason)
             raise
+
+    def get_plan_by_service_type_id_and_plan_id(self, service_type_id: int, plan_id: int):
+        """
+        return a single plan based on ids.
+
+        :param service_type_id:
+        :param plan_id:
+        """
+        logger.info("seraching for plan with service type: %s and plan id %s", service_type_id, plan_id)
+        plans = [plan for plan in self.get_plans_by_service_type(service_type_id=service_type_id)
+                         if plan["id"] == plan_id]
+        logger.info("found %s plans with service type id and plan id", len(plans))
+        return self.enhance_plan(service_type_id, plans[0])
 
     def get_plan_by_service_type_name_and_date(self, service_type_name: str, plan_date: str):
         """
@@ -96,8 +114,10 @@ class PlanningCenterClient:
         plans = [plan for plan in self.get_plans_by_service_type(service_type_id=service_type[0]["id"])
                          if plan["attributes"]["dates"] == plan_date]
         logger.info("plan: %s", plans[0]["id"])
+        return self.enhance_plan(plans[0])
 
-        plan_items = self.get_plan_items(service_type[0]["id"], plans[0]["id"])
+    def enhance_plan(self, service_type_id: int, plan):
+        plan_items = self.get_plan_items(service_type_id, plan["id"])
         songs = []
         song_arrangements = []
         for plan_item in plan_items:
@@ -111,10 +131,10 @@ class PlanningCenterClient:
                     song_arrangements.append(self.get_song_arrangements(song_id)[0])
                 except TypeError as e:
                     logger.warning("missing song arrangement?", exc_info=e)
-        plans[0]["plan_items"] = plan_items
-        plans[0]["songs"] = songs
-        plans[0]["arrangements"] = song_arrangements
-        return plans[0]
+        plan["plan_items"] = plan_items
+        plan["songs"] = songs
+        plan["arrangements"] = song_arrangements
+        return plan
 
     def get_plan_items(self, service_type_id: str, plan_id: str):
         """

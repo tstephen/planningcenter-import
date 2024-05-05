@@ -13,7 +13,7 @@ import urllib.error
 import urllib.request
 from json import loads, load, dump
 
-from planningcenter_import.planningcenter_client import PlanningCenterClient
+from planningcenter_import.planningcenter_client import PlanningCenterClient, PlanningCenterOptions
 
 logger = logging.getLogger(__name__)
 
@@ -30,7 +30,7 @@ def init_planningcenter_client():
     if secret is None:
          raise ValueError("must specify environment variable PC_SECRET")
 
-    return PlanningCenterClient(application_id, secret) 
+    return PlanningCenterClient(PlanningCenterOptions())
 
 def test_get_organization(planningcenter: PlanningCenterClient):
     """ test can get organization for the account  """
@@ -42,6 +42,10 @@ def test_get_service_types(planningcenter: PlanningCenterClient):
     """ test can get service types  """
     service_types = planningcenter.get_service_types()
     assert len(service_types) > 0
+
+    with open(f"service-types.json", 'w') as outfile:
+        dump(service_types, outfile, indent=2)
+
     if os.getenv("PC_SERVICE_TYPE_NAME"):
         service_type = [st for st in service_types
                          if st["attributes"]["name"] == os.environ["PC_SERVICE_TYPE_NAME"]]
@@ -59,6 +63,10 @@ def test_get_plans(planningcenter: PlanningCenterClient):
     logger.info("available plans: %s", [plan["attributes"]["dates"] for plan in plans])
     print(f"available plans: {[plan['attributes']['dates'] for plan in plans]}")
     assert len(plans) > 0
+
+    with open(f"plans.json", 'w') as outfile:
+        dump(plans, outfile, indent=2)
+
     if os.getenv("PC_PLAN_DATE"):
         plan = [plan for plan in plans
                          if plan["attributes"]["dates"] == os.environ["PC_PLAN_DATE"]]

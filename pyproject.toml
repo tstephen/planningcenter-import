@@ -12,13 +12,14 @@ openlp = "^3.1.1"
 requests = "^2.31.0"
 pydantic = "^2.7.1"
 jinja2 = "^3.1.3"
+pydantic-settings = "^2.2.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"
 coverage = "^7.5.0"
 
 [tool.poetry.scripts]
-pci = "pci.__main__:main"
+pci = "planningcenter_import.main:main"
 tests = "scripts:tests"
 
 [build-system]

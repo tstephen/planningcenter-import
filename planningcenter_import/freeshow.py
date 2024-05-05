@@ -7,20 +7,19 @@ import logging
 from jinja2 import Template
 from pydantic import BaseModel
 
-from planningcenter_import.planningcenter_client import PlanningCenterClient
+from planningcenter_import.planningcenter_client import PlanningCenterClient, PlanningCenterOptions
 
 logger = logging.getLogger(__name__)
 
-class FreeShowOptions(BaseModel):
-    application_id: str
-    secret: str
-    verbose: str = "INFO"
-
 class FreeShow:
 
-    def __init__(self, options: FreeShowOptions) -> None:
+    def __init__(self, options: PlanningCenterOptions) -> None:
         self.options = options
-        self.planningcenter =  PlanningCenterClient(options.application_id, options.secret)
+        self.planningcenter =  PlanningCenterClient(options)
+
+    def get_plan_from_planning_center(self, service_type_id: int, plan_id: int) -> str:
+        return self.transform_plan_to_project(
+            self.planningcenter.get_plan_by_service_type_id_and_plan_id(service_type_id, plan_id))
 
     def transform_plan_to_project(self, plan):
         with open('planningcenter_import/templates/planningcenter2freeshow.j2', 'r') as template_file:
