@@ -1,9 +1,9 @@
 """
 __main__.py
 """
-import json
 import logging
 import os
+import sys
 from typing import Dict, List
 
 from planningcenter_import.freeshow import FreeShow
@@ -12,9 +12,13 @@ from planningcenter_import.planningcenter_client import PlanningCenterClient, Pl
 logger = logging.getLogger(__name__)
 
 def main():
-    options = get_planning_center_options()
-    pc = PlanningCenterClient(options)
-    print(f"Successfully connected to {pc.get_organization()}")
+    try:
+        options = get_planning_center_options()
+        pc = PlanningCenterClient(options)
+        print(f"Successfully connected to {pc.get_organization()}")
+    except ValueError as err:
+        print("Environment variales for PC_APP_ID and PC_SECRET are needed to connect to PlanningCenter")
+        sys.exit(0)
 
     service_types = read_service_types(pc)
     index = get_user_selection(service_types)
